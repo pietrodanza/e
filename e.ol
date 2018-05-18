@@ -9,7 +9,7 @@ OneWay:
 execution{concurrent}
 
 inputPort eIn {
-Location: "socket://localhost:8004"
+Location: JDEP_LOCATION_e_eIn
 Protocol: sodep
 Interfaces: eInterface
 }
